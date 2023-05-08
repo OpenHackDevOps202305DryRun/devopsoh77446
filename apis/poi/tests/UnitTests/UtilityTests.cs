@@ -13,5 +13,11 @@ namespace UnitTests
             Assert.Equal(2002, LoggingEvents.GetPOIByID);
             Assert.Equal(2002, LoggingEvents.GetPOIByTripID);
         }
+
+        [Fact]
+        public void AlwaysError()
+        {
+            Assert.False(true);
+        }
     }
 }
