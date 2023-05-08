@@ -76,7 +76,3 @@ Test('/healthcheck/user', function (t) {
         });
     });
 });
-
-Test('GitHub Workflow Test', function (t) {
-    t.fail('Test workflow');
-});
